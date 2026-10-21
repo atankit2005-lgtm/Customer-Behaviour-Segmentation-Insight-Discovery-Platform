@@ -1,0 +1,15 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# keep folder structure, ignore the actual data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
